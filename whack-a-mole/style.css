@@ -1,0 +1,32 @@
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 618px;
+  height: 618px;
+}
+
+.mole {
+  background-image: url(./images/mole.gif);
+  background-size: cover;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+}
+
+#time-left {
+  color: red;
+}
